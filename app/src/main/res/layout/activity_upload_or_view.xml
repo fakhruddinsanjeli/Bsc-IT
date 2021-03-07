@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload_or_view"
+    android:padding="20dp"
+    android:background="@drawable/bg2">
+
+    <Button
+
+        android:id="@+id/uploadfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/round_button"
+        android:elevation="10dp"
+        android:fontFamily="@font/allerta"
+        android:padding="15dp"
+        android:text="Upload Files"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/viewuploadedfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/round_button"
+        android:elevation="10dp"
+        android:fontFamily="@font/allerta"
+        android:padding="15dp"
+        android:text="View Uploaded Files"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
